@@ -1,0 +1,98 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>eatthebuffet</title>
+  <subtitle>Just my collection of CTF's.</subtitle>
+  <updated>2023-05-07T11:16:17+00:00</updated>
+  <author>
+    <name>Ean</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Ean </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>RedPanda Walkthrough</title>
+    <link href="http://localhost:4000/posts/RedPanda-Walkthrough/" rel="alternate" type="text/html" title="RedPanda Walkthrough" />
+    <published>2023-05-04T00:00:00+00:00</published>
+  
+    <updated>2023-05-05T03:19:59+00:00</updated>
+  
+    <id>http://localhost:4000/posts/RedPanda-Walkthrough/</id>
+    <content src="http://localhost:4000/posts/RedPanda-Walkthrough/" />
+    <author>
+      <name>Ean</name>
+    </author>
+
+  
+    
+    <category term="hackthebox" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a walkthrough on how to complete the RedPanda box on Hackthebox.com. This box has been retired. The box is rated as easy difficulty. You can attempt the machine here as well as view their write up on the box.
+
+Required Skills include: Web enumeration, Linux fundamentals, burp fundamental skills and how to read and understand basic java.
+
+I first ran an nmap scan to scan the server stumb...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>First Post</title>
+    <link href="http://localhost:4000/posts/First-Post/" rel="alternate" type="text/html" title="First Post" />
+    <published>2023-05-04T00:00:00+00:00</published>
+  
+    <updated>2023-05-04T10:47:34+00:00</updated>
+  
+    <id>http://localhost:4000/posts/First-Post/</id>
+    <content src="http://localhost:4000/posts/First-Post/" />
+    <author>
+      <name>Ean</name>
+    </author>
+
+  
+    
+    <category term="hackthebox" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is the first post on my blog. You can see an animal below.
+
+
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
