@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>eatthebuffet</title>
   <subtitle>Just my collection of CTF's.</subtitle>
-  <updated>2023-05-07T11:16:17+00:00</updated>
+  <updated>2023-05-07T11:30:50+00:00</updated>
   <author>
     <name>Ean</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/RedPanda-Walkthrough/" rel="alternate" type="text/html" title="RedPanda Walkthrough" />
     <published>2023-05-04T00:00:00+00:00</published>
   
-    <updated>2023-05-05T03:19:59+00:00</updated>
+    <updated>2023-05-04T00:00:00+00:00</updated>
   
     <id>http://localhost:4000/posts/RedPanda-Walkthrough/</id>
     <content src="http://localhost:4000/posts/RedPanda-Walkthrough/" />
@@ -62,7 +62,7 @@ I first ran an nmap scan to scan the server stumb...
     <link href="http://localhost:4000/posts/First-Post/" rel="alternate" type="text/html" title="First Post" />
     <published>2023-05-04T00:00:00+00:00</published>
   
-    <updated>2023-05-04T10:47:34+00:00</updated>
+    <updated>2023-05-04T00:00:00+00:00</updated>
   
     <id>http://localhost:4000/posts/First-Post/</id>
     <content src="http://localhost:4000/posts/First-Post/" />
