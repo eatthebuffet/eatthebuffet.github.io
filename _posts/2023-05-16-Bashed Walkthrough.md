@@ -26,15 +26,15 @@ sudo nmap -Pn -n -v -sC -sV --open --min-rate=1000 -oA bashed BashedIP
 
 added bashed.htb to hosts file so I am able to access the page online.
 
-![[/assets/images/Bashed/mainpage.jpg]]
+![](/assets/images/Bashed/mainpage.jpg)
 
 This links to another interesting page with more information relating to the exploit. 
 
-![[/assets/images/Bashed/mainpage2.jpg]]
+![](/assets/images/Bashed/mainpage2.jpg)
 
 This shows an example of a php file that is on the server, however I do not know that at this point in time. 
 
-![[/assets/images/Bashed/githubpage.jpg]]
+![](/assets/images/Bashed/githubpage.jpg)
 
 
 https://github.com/Arrexel/phpbash
@@ -91,12 +91,12 @@ going to this page provides us with a semi-shell which was shown above in the gi
 http://bashed.htb/dev/phpbash.php
 
 
-![[/assets/images/Bashed/phpbash.jpg]]
+![](/assets/images/Bashed/phpbash.jpg)
 
 
 sudo -l
 
-![[/assets/images/Bashed/phpbash2.jpg]]
+![](/assets/images/Bashed/phpbash2.jpg)
 
 cd .. 
 
@@ -147,13 +147,13 @@ I attempt to run sudo -l where it asks for a password of which I do not have.
 
 I then travel to /home and see another user. arrexel which I can read his files and thus got the user flag.
 
-![[/assets/images/Bashed/shell.jpg]]
+![](assets/images/Bashed/shell.jpg)
 
 
 
 travelling to / shows me an interesting folder. /scripts which I travel to finding test.py and test.txt
 
-![[/assets/images/Bashed/shell2.jpg]]
+![](/assets/images/Bashed/shell2.jpg)
 
 seeing the files you can see test.py is owned by scriptmanager and test.txt is owned by root.
 
@@ -186,7 +186,7 @@ This gave me a root shell.
 
 
 
-![[/assets/images/Bashed/pwned.jpg]
+![](/assets/images/Bashed/pwned.jpg])
 
 
 
