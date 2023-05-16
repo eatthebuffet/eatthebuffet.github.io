@@ -6,6 +6,11 @@ categories: [hackthebox]
 tags: [hackthebox, linux, web, SUDO, Scheduled Job Abuse]
 ---
 
+This is a walkthrough on how to complete the RedPanda box on Hackthebox.com. This box has been retired. The box is rated as **easy** difficulty. You can attempt the machine [here](https://app.hackthebox.com/machines/118) as well as view their write up on the box. 
+
+Required Skills include: Web enumeration, Linux fundamentals.
+
+
 I first started out with nmap scan as you must know what is open and what is closed. 
 
 sudo nmap -Pn -n -v -sC -sV --open --min-rate=1000 -oA bashed BashedIP
@@ -182,3 +187,12 @@ This gave me a root shell.
 
 
 ![[/assets/images/Bashed/pwned.jpg]
+
+
+
+You can secure the exploited vulnerability by first not having an interactive shell built into your webapp. Another step to take is to ensure that you do not have scripts running at elevated levels if unnecessary. To change this, you will need to change who is running the automated job. The permissions seemed to be fine on this machine.  
+
+
+
+
+
