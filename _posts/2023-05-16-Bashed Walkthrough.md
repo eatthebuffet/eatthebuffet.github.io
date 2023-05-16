@@ -186,7 +186,7 @@ This gave me a root shell.
 
 
 
-![](/assets/images/Bashed/pwned.jpg])
+![](/assets/images/Bashed/pwned.jpg)
 
 
 
