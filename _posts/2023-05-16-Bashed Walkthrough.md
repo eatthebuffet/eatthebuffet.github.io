@@ -147,7 +147,7 @@ I attempt to run sudo -l where it asks for a password of which I do not have.
 
 I then travel to /home and see another user. arrexel which I can read his files and thus got the user flag.
 
-![](assets/images/Bashed/shell.jpg)
+![](/assets/images/Bashed/shell.jpg)
 
 
 
