@@ -6,7 +6,7 @@ categories: [hackthebox]
 tags: [hackthebox, linux, web, SUDO, Scheduled Job Abuse]
 ---
 
-This is a walkthrough on how to complete the RedPanda box on Hackthebox.com. This box has been retired. The box is rated as **easy** difficulty. You can attempt the machine [here](https://app.hackthebox.com/machines/118) as well as view their write up on the box. 
+This is a walkthrough on how to complete the Bashed box on Hackthebox.com. This box has been retired. The box is rated as **easy** difficulty. You can attempt the machine [here](https://app.hackthebox.com/machines/118) as well as view their write up on the box. 
 
 Required Skills include: Web enumeration, Linux fundamentals.
 
