@@ -126,7 +126,7 @@ nc -lvnp 4444
 I now have a bad shell as user "www-data" so I  can upgrade with 
 
 
-```shell
+```python
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
