@@ -26,7 +26,7 @@ It is also worth noting that you can change the port it listens on, as by defaul
 ```
 
 
-!()[/assets/]
+![](/assets/images/ligolo/1.png)
 
 Victim Machine (Windows or Linux):
 
@@ -36,7 +36,7 @@ Upload the respective file.
 ```
 The -ignore-cert will be required if you use -selfcert.
 
-![[Pasted image 20230707124238.png]]
+![](/assets/images/ligolo/2.png)
 
 You must run a few more commands on the Attacker Machine from within the proxy prompt in order to get your tunnel running.
 ```
@@ -44,7 +44,7 @@ session (session number)
 start
 ```
 Once all of this is done you will be able to run commands from your attacker machine as if you are in the internal network. On this network there is an internal networked connect which I can verify by typing ifconfig.
-![[Pasted image 20230707124327.png]]
+![](/assets/images/ligolo/3.png)
 
 For this machine you must also run ```
 ```
@@ -53,7 +53,7 @@ sudo ip route add 192.168.110.0/24 dev ligolo
 
 Now on the Attacker Machine but another terminal I can run pings on the internal network on the victims machine.
 
-![[Pasted image 20230707124707.png]]
+![](/assets/images/ligolo/4.png)
 
 It also worth noting that ligolo does not use SOCK5, but instead ligolo uses GVISOR and thus is must faster than a SOCKS proxy.
 
