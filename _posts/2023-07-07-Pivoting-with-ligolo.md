@@ -8,15 +8,15 @@ tags: [ligolo, pivoting]
 
 Pivoting is an essential part of penetration testing. Once you gain an initial foothold there may be several subnets that the outside world may not have access to and will give you further access into the domain by leveraging a tool such as ligolo which can be downloaded from [Github](https://github.com/Nicocha30/ligolo-ng). 
 
-In order to leverage this tool you will need to download it via `git clone https://github.com/nicocha30/ligolo-ng.git` .  It is also worth noting that ligolo does not use SOCK5, but instead ligolo uses GVISOR and thus is much faster than a SOCKS proxy, mimicking a VPN.
+In order to leverage this tool you will need to download it via and getting the proper release for your OS `https://github.com/nicocha30/ligolo-ng/releases/tag/v0.4.4`.  It is also worth noting that ligolo does not use SOCK5, but instead ligolo uses GVISOR and thus is much faster than a SOCKS proxy, mimicking a VPN.
 
-You can then proceed to start, add and start the proxy server via these  commands.
+You can then proceed to start, add and start the proxy server via these commands.
 
 Attacker Machine:
 ```shell
 sudo ip tuntap add user kali mode tun ligolo
 sudo ip link set ligolo up
-chmod + proxy
+chmod +x proxy
 ./proxy -autocert
 ```
 It is also worth noting that you can change the port it listens on, as by default it will listen on port 11601.
