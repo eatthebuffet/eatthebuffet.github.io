@@ -7,3 +7,4 @@ tags: [hackthebox, Offsec]
 ---
 
 # CPTS or OSCP 
+ff
