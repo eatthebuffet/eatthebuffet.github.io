@@ -56,7 +56,7 @@ I do not have the OSCP certifcation just yet. However, it has been around the co
 ## TLDR; CPTS prepares you better than the OSCP does in almost every way.
 
 
-https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist
-https://offsec.com/courses/pen-200/
-https://help.offsec.com/hc/en-us/articles/360046787731-PEN-200-Reporting-Requirements
-https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide)
+[CPTS Course](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist)
+[OSCP](https://offsec.com/courses/pen-200/)
+[OSCP Reporting Requirements](https://help.offsec.com/hc/en-us/articles/360046787731-PEN-200-Reporting-Requirements)
+[OSCP Exam Guide](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide)
